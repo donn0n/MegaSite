@@ -20,9 +20,9 @@ export function SiteHero() {
     const { t } = useTranslation();
     //sürekli değişen yazı
     const textarray = [
-       {text: "Counter-Strike 1.2", color: "text-red-500", src: "https://cdn.discordapp.com/attachments/1165441669831856209/1166900913894608957/NicePng_csgo-ct-png_2279334.png?ex=654c2c29&is=6539b729&hm=4c158e64337aaa558bad07ed352dce6fe3e666100c9ae31abc7ef13f5343221c&", url: "https://www.youtube.com/watch?v=QqkUxvqjYdI"},
-       {text: "Counter-Strike 1.3", color: "text-red-500", src: "https://cdn.discordapp.com/attachments/1165441669831856209/1166900913894608957/NicePng_csgo-ct-png_2279334.png?ex=654c2c29&is=6539b729&hm=4c158e64337aaa558bad07ed352dce6fe3e666100c9ae31abc7ef13f5343221c&" , url: "https://www.youtube.com/watch?v=QqkUxvqjYdI"},
-       {text: "Counter-Strike 1.4", color: "text-red-500", src: "https://cdn.discordapp.com/attachments/1165441669831856209/1166900913894608957/NicePng_csgo-ct-png_2279334.png?ex=654c2c29&is=6539b729&hm=4c158e64337aaa558bad07ed352dce6fe3e666100c9ae31abc7ef13f5343221c&" , url: "https://www.youtube.com/watch?v=QqkUxvqjYdI"},
+       {text: "Counter-Strike 1.2", color: "text-red-500", src: "https://cdn.discordapp.com/attachments/1165441669831856209/1166900913894608957/NicePng_csgo-ct-png_2279334.png?ex=654c2c29&is=6539b729&hm=4c158e64337aaa558bad07ed352dce6fe3e666100c9ae31abc7ef13f5343221c&", url: "https://www.youtube.com/watch?v=FFaQWiLZx70"},
+       {text: "Counter-Strike 1.3", color: "text-red-500", src: "https://cdn.discordapp.com/attachments/1165441669831856209/1166900913894608957/NicePng_csgo-ct-png_2279334.png?ex=654c2c29&is=6539b729&hm=4c158e64337aaa558bad07ed352dce6fe3e666100c9ae31abc7ef13f5343221c&" , url: "https://www.youtube.com/watch?v=FFaQWiLZx70"},
+       {text: "Counter-Strike 1.4", color: "text-red-500", src: "https://cdn.discordapp.com/attachments/1165441669831856209/1166900913894608957/NicePng_csgo-ct-png_2279334.png?ex=654c2c29&is=6539b729&hm=4c158e64337aaa558bad07ed352dce6fe3e666100c9ae31abc7ef13f5343221c&" , url: "https://www.youtube.com/watch?v=FFaQWiLZx70"},
     ]
     const cheattags = [
         {text: "Aimbot"},
@@ -88,7 +88,7 @@ export function SiteHero() {
             </Link>
         </div>
         <div className="w-1/2 hidden md:block ml-10">
-            <iframe className="w-[27rem] h-80 p-2 " src="https://www.youtube.com/embed/sLNng_eQ6IA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            <iframe className="w-[27rem] h-80 p-2 " src="https://www.youtube.com/embed/FFaQWiLZx70" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
         </div>
         </div>
         <div className="absolute top-0 left-0 h-64 -z-10 w-64 bg-accent/50 rounded-full -m-40 -mb-56 dark:bg-accent-dark"></div>
